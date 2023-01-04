@@ -1,4 +1,4 @@
-# astronvim_config
+# Astronvim config
 
 Клонируем репозиторий в папку **~/.config/nvim/lua**:
 
