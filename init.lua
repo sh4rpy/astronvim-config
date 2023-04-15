@@ -18,10 +18,11 @@ return {
   },
 
   -- Set colorscheme to use
+  colorscheme = "onedark",
+
   plugins = {
     "joshdick/onedark.vim",
   },
-  colorscheme = "onedark",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
