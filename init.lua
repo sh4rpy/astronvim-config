@@ -18,10 +18,22 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "onedark",
+  colorscheme = "catppuccin",
 
   plugins = {
-    "joshdick/onedark.vim",
+    {
+      "joshdick/onedark.vim",
+      name = "onedark",
+    },
+    {
+      "catppuccin/nvim",
+      name = "catppuccin",
+      config = function()
+        require("catppuccin").setup({
+          no_italic = true,
+        })
+      end,
+    },
   },
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
